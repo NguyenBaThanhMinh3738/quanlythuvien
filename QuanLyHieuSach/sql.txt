@@ -1,0 +1,1 @@
+ALTER TABLE `sach` ADD CONSTRAINT `fk_maLoai` FOREIGN KEY(`maLoai`) REFERENCES `loai`(`maLoai`)
